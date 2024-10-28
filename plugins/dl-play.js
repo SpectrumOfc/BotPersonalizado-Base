@@ -10,7 +10,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 	//const url = 'https://www.youtube.com/watch?v=' + videoId
 	m.react('🎧') 
   let play = `
-	≡ *FG MUSIC*
+	≡ *𝐘𝐈𝐑𝐎 𝐁𝐎𝐓 MUSIC*
 ┌──────────────
 ▢ 📌 *${mssg.title}:* ${vid.title}
 ▢ 📆 *${mssg.aploud}:* ${vid.ago}
@@ -20,7 +20,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
  await conn.sendButton2(m.chat, play, mssg.ig, thumbnail, [
     ['🎶 MP3', `${usedPrefix}fgmp3 ${url}`],
     ['🎥 MP4', `${usedPrefix}fgmp4 ${url}`]
-  ], null, [['Canal', `${fgcanal}`]], m)
+  ], null, [['𝐘𝐈𝐑𝐎 𝐁𝐎𝐓', `${fgcanal}`]], m)
 }
 handler.help = ['play']
 handler.tags = ['dl']
