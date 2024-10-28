@@ -28,49 +28,7 @@ let tags = {
   'advanced': 'AVANZADO',
 }
 const defaultMenu = {
-  before: `
-꧁✦ LISTA MENÚ ✦꧂
-
-┏━━━━━ INFO BOT ━━━━━┓ 
-┃ BOT ➫ YIRO BOT
-┃ CREADOR ➫ SPECTRUM OFC
-┃ OWNER ➫ +52 5636167834
-┃ VERSIÓN ➫ 1.00 
-┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ ACERCA DE ━━━━━┓ ▢ .blocklist 📜 ▢ .info ℹ️ ▢ .owner 🧑‍💼 ▢ .donate 💰 ▢ .language <es-en...> 🗣️ ▢ .listprem 🏆 ▢ .menu2 📋 ▢ .ping 🏓 ▢ .runtime ⏱️ ▢ .speedtest ⚡ ▢ .support 🛠️ ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ SUB BOTS ━━━━━┓ ▢ .botclone 🤖 ▢ .botlist 📋 ▢ .txbot 🔄 ▢ .stop 🛑 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ JUEGOS ━━━━━┓ ▢ .dado 🎲 ▢ .mates <modo> 🧮 ▢ .ppt ✋✊✌️ ▢ .slot <apuesta> 🎰 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ NIVEL & ECONOMÍA ━━━━━┓ ▢ .balance 💵 ▢ .buy 🛍️ ▢ .daily 📅 ▢ .leaderboard 🏅 ▢ .levelup ⬆️ ▢ .mine ⛏️ ▢ .transfer [tipo] [monto] [@tag] 💸 ▢ .weekly 📆 ▢ .work 👨‍💼 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ REGISTRO ━━━━━┓ ▢ .reg <nombre.edad.género> 📋 ▢ .mysn 🧾 ▢ .unreg <Num Serie> 🚫 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ STICKER ━━━━━┓ ▢ .attp <text> 🖌️ ▢ .emojimix <emoji+emoji> 🌀 ▢ .getsticker 🎟️ ▢ .smaker ✏️ ▢ .sticker 🏷️ ▢ .telestick 📞 ▢ .toimg <sticker> 🖼️ ▢ .tovid 🎥 ▢ .trigger <@user> ⚡ ▢ .ttp <text> 📜 ▢ .take <nombre>|<autor> 📝 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ IMAGEN ━━━━━┓ ▢ .tvid 🎥 ▢ .couple 💑 ▢ .imagen 🖼️ ▢ .girl 👧 ▢ .meme 😂 ▢ .person 👤 ▢ .pinterest 📌 ▢ .wallpaper 🖼️ ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ MAKER ━━━━━┓ ▢ .logololi 🖍️ ▢ .graffiti2 🎨 ▢ .3dbox 📦 ▢ .future 🔮 ▢ .ninja 🥷 ▢ .marvel 🦸 ▢ .paper 📜 ▢ .glitch 💫 ▢ .halloween 🎃 ▢ .green 🍃 ▢ .american 🇺🇸 ▢ .neon 🌟 ▢ .devil 😈 ▢ .wolf 🐺 ▢ .phlogo 📷 ▢ .transformer 🚗🔄🤖 ▢ .thunder ⚡ ▢ .graffiti 🎨 ▢ .bpink 🌸 ▢ .joker 🃏 ▢ .matrix 🟩 ▢ .glow ✨ ▢ .ballon 🎈 ▢ .dmd 💎 ▢ .lightglow ✨ ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ PREMIUM ━━━━━┓ ▢ .gdrive 🚀 ▢ .mediafire <url> 🔗 ▢ .xnxx 🔞 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ GRUPO ━━━━━┓ ▢ .add ➕ ▢ .delete ❌ ▢ .delwarn @user ⚠️ ▢ .demote (@tag) ⬇️ ▢ .infogp ℹ️ ▢ .hidetag 🙈 ▢ .kick @user 🚪 ▢ .link 🔗 ▢ .profile 👤 ▢ .promote ⬆️ ▢ .rules 📜 ▢ .setbye <text> 👋 ▢ .setrules <text> 📜 ▢ .group 👥 ▢ .setwelcome 👋 ▢ .simulate <event> @user 🎭 ▢ .staff 🧑‍💼 ▢ .totag 📛 ▢ .warn @user ⚠️ ▢ .warns ⚠️ ▢ .checkexpired ⏲️ ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ EN/DISABLE OPCIONES ━━━━━┓ ▢ .enable <option> ✅ ▢ .disable <option> ❌ ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ ANIME ━━━━━┓ ▢ .waifu 😍 ▢ .neko 😺 ▢ .megumin 🔥 ▢ .loli 👧 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ ANIME REACCIÓN ━━━━━┓ ▢ .kill @tag 🔪 ▢ .kiss @tag 😘 ▢ .pat @tag 👏 ▢ .slap @tag 👋 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ DESCARGAS ━━━━━┓ ▢ .facebook <url> 📘 ▢ .gdrive 🚀 ▢ .gitclone <url> 🔗 ▢ .igstalk 🕵️ ▢ .igstory 📸 ▢ .instagram <link ig> 📸 ▢ .mediafire <url> 🔗 ▢ .play ▶️ ▢ .play2 ▶️ ▢ .tiktok 🎵 ▢ .tiktokstalk 🕵️ ▢ .twitter <url> 🐦 ▢ .ytmp3 <url> 🎶 ▢ .ytsearch 🔍 ▢ .ytmp4 <link yt> 🎬 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ TOOLS ━━━━━┓ ▢ .calc (+*-%) 🧮 ▢ .fake <text> @user <text2> 📢 ▢ .get 🔄 ▢ .gemini <text> ♊ ▢ .google 🔍 ▢ .lyrics 🎤 ▢ .ai <text> 🤖 ▢ .readmore <text1>|<text2> 📜 ▢ .readvo 🗣️ ▢ .script 📜 ▢ .ssweb <url> 🌐 ▢ .tourl 🔗 ▢ .trad <leng> <text> 🌐 ▢ .tts <lang> <teks> 🗣️ ▢ .wikipedia 📚 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ FUN ━━━━━┓ ▢ .afk ⏰ ▢ .gay @user 🌈 ▢ .trash 🗑️ ▢ .rip 🪦 ▢ .shit 💩 ▢ .spank 👋 ▢ .imgdel 🗑️ ▢ .beautiful 💖 ▢ .shipping 🚢 ▢ .bot 🤖 ▢ .tomp3 🎶 ▢ .toav 🎧 ▢ .txt 📝 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━ DATABASE ━━━━━┓ ▢ .delcmd <text> 🗑️ ▢ .listcmd 📋 ▢ .setcmd <text> 📜 ┗━━━━━━━━━━━━━━━━━━┛`,
+  before: `hola`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
