@@ -28,7 +28,30 @@ let tags = {
   'advanced': 'AVANZADO',
 }
 const defaultMenu = {
-  before: `hola`,
+  before: `
+◈ ━━━━━ *Senna  ┃ ᴮᴼᵀ* ━━━━━ ◈
+ 
+👋🏻 Hola! *%name*
+👥 Usuarios : %totalreg
+🟢 Tiempo activo : %muptime
+%sbot
+▢ ADD
+• https://instagram.com/fg98_ff
+
+• https://fgmods.xyz
+
+────────────
+%readmore
+  ≡ *LISTA DE MENUS*
+
+Ⓟ = Premium
+ⓓ = Diamantes
+`.trimStart(),
+  header: '┌─⊷ *%category*',
+  body: '▢ %cmd %isdiamond %isPremium',
+  footer: '└───────────\n',
+  after: `
+`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
