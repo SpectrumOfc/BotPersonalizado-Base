@@ -20,11 +20,11 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Senna┃ᴮᴼᵀ' 
-global.author = '@fg98' 
+global.packname = 'ʏɪʀᴏ ʙᴏᴛ | ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴘᴇᴄᴛʀᴜᴍ ᴏꜰᴄ' 
+global.author = 'ʏɪʀᴏ ʙᴏᴛ | ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴘᴇᴄᴛʀᴜᴍ ᴏꜰᴄ' 
 
 //--info FG
-global.botName = 'Senna'
+global.botName = 'ʏɪʀᴏ ʙᴏᴛ | ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴘᴇᴄᴛʀᴜᴍ ᴏꜰᴄ'
 global.fgig = 'https://instagram.com/fg98_ff' 
 global.fgsc = 'https://github.com/FG98F/dylux-fg' 
 global.fgyt = 'https://youtube.com/fg98f'
@@ -32,11 +32,11 @@ global.fgpyp = 'https://paypal.me/fg98f'
 global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
 
 //--- Grupos WA
-global.id_canal = '120363177092661333@newsletter' //-ID de canal de WhatsApp
-global.fgcanal = 'https://whatsapp.com/channel/0029VaCeuZd6mYPQiWqxXj1F'
-global.bgp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
-global.bgp2 = 'https://chat.whatsapp.com/I7bvd8XCAOUHjgkHteqFC7'
-global.bgp3 = 'https://chat.whatsapp.com/F0JTTyZ3hsoL7OlU8TEpuH' //--GP NSFW
+global.id_canal = '120363316264159575@newsletter' //-ID de canal de WhatsApp
+global.fgcanal = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.bgp = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.bgp2 = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.bgp3 = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u' //--GP NSFW
 
 global.wait = '⌛ _Cargando..._\n*▬▬▬▭*'
 global.rwait = '⌛'
