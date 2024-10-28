@@ -3,35 +3,37 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url' 
 
 global.owner = [
-  ['59172945992', 'FG98', true],
-  ['5491168352204']
-] //Numeros de owner 
+  ['5214274130309', '𝐂𝐑𝐄𝐀𝐃𝐎𝐑 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐎𝐅𝐂', true],
+  ['525636167834', '𝐎𝐖𝐍𝐄𝐑', true],
+  ['525643260308', '𝐘𝐈𝐑𝐎 𝐁𝐎𝐓', true],
+  ['5214274130309']
+] 
 
 global.mods = [''] 
-global.prems = ['50489079501', '573143917092']
-global.APIs = { // API Prefix
-  // name: 'https://website' 
+global.prems = ['5214274130309', '5214274130309']
+global.APIs = { 
+  
   nrtm: 'https://fg-nrtm.ddns.net',
   fgmods: 'https://api.fgmods.xyz'
 }
-global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
-  'https://api.fgmods.xyz': 'm2XBbNvz' //-- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
+global.APIKeys = { 
+  
+  'https://api.fgmods.xyz': 'm2XBbNvz' 
 }
 
-// Sticker WM
+
 global.packname = 'ʏɪʀᴏ ʙᴏᴛ | ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴘᴇᴄᴛʀᴜᴍ ᴏꜰᴄ' 
 global.author = 'ʏɪʀᴏ ʙᴏᴛ | ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴘᴇᴄᴛʀᴜᴍ ᴏꜰᴄ' 
 
-//--info FG
-global.botName = 'ʏɪʀᴏ ʙᴏᴛ | ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴘᴇᴄᴛʀᴜᴍ ᴏꜰᴄ'
-global.fgig = 'https://instagram.com/fg98_ff' 
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
-global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
 
-//--- Grupos WA
+global.botName = 'ʏɪʀᴏ ʙᴏᴛ | ᴄʀᴇᴀᴛᴇ ʙʏ ꜱᴘᴇᴄᴛʀᴜᴍ ᴏꜰᴄ'
+global.fgig = 'https://instagram.com/' 
+global.fgsc = 'https://github.com/SpectrumOfc' 
+global.fgyt = 'https://youtube.com/'
+global.fgpyp = 'https://paypal.me/'
+global.fglog = 'https://ibb.co/QfyL9Wy/logo.jpgs' 
+
+
 global.id_canal = '120363316264159575@newsletter' //-ID de canal de WhatsApp
 global.fgcanal = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
 global.bgp = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
@@ -46,7 +48,7 @@ global.error = '❌'
 global.xmoji = '🔥' 
 
 global.multiplier = 69 
-global.maxwarn = '2' // máxima advertencias
+global.maxwarn = '2' 
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
