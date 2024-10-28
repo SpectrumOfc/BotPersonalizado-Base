@@ -72,9 +72,9 @@ const defaultMenu = {
 
 ┏━━━━━ DATABASE ━━━━━┓ ▢ .delcmd <text> 🗑️ ▢ .listcmd 📋 ▢ .setcmd <text> 📜 ┗━━━━━━━━━━━━━━━━━━┛
 `.trimStart(),
-  header: '┌─⊷ *%category*',
-  body: '▢ %cmd %isdiamond %isPremium',
-  footer: '└───────────\n',
+  header: '',
+  body: '',
+  footer: '',
   after: `
 `,
 }
